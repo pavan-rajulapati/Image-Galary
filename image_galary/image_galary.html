@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Galary</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            width: 100%;
+        }
+        .heading h1{
+            text-align: center;
+            color: rgb(0, 153, 255);
+            border-bottom: solid;
+            width: fit-content;
+            padding: 0px 50px;
+            padding-bottom: 5px;
+        }
+        .mainSection{
+            display: flex;
+            width: 98%;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .imageSection{
+            width: 32.5%;
+            display: flex;
+            flex-direction: column;
+        }
+        .mainSection .imageSection img {
+            margin: 7px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .imageSection img:hover{
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>Image Galary</h1>
+    </div>
+    <div class="mainSection">
+        <div class="imageSection">
+            <img src="image1.jpg" alt="">
+            <img src="image2.jpg" alt="">
+            <img src="image3.jpg" alt="">
+            <img src="image4.jpg" alt="">
+            <img src="image5.jpg" alt="">
+            <img src="image15.jpg" alt="">
+        </div>
+        <div class="imageSection">
+            <img src="image6.jpg" alt="">
+            <img src="image7.jpg" alt="">
+            <img src="image8.jpg" alt="">
+            <img src="image9.jpg" alt="">
+            <img src="image10.jpg" alt="">
+        </div>
+        <div class="imageSection">
+            <img src="image11.jpg" alt="">
+            <img src="image12.jpg" alt="">
+            <img src="image13.jpg" alt="">
+            <img src="image14.jpg" alt="">
+            <img src="image16.jpg" alt="">
+            <img src="image17.jpg" alt="">
+
+        </div>
+
+    </div>
+</body>
+</html>
